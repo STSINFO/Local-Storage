@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 96px;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  /* text-align: center; */
+  /* width: 200px;
+  height: 200px; */
+  border: 1px solid black;
+  padding: 20px 60px;
+  border-radius: 5px;
+}
+
+span {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+button {
+  padding: 16px 32px;
+  font-size: 20px;
+}
